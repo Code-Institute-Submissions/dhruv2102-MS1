@@ -1,0 +1,14 @@
+/*----------------------- Navbar Logo */
+
+.logo{
+    margin-left: 50px;
+}
+
+.nav-link-margin{
+    margin-right: 2%;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    margin: 2px;
+}
