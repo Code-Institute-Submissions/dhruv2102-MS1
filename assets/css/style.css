@@ -1,5 +1,21 @@
 /*----------------------- General */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.row-center{
+    text-align: center;
+}
+
+/*----------------------- Color */
+.bg-color-desc{
+    background-color: darkkhaki;
+}
+
 /*----------------------- Navbar */
+.header{
+    position: relative;
+}
 
 .logo{
     margin-left: 50px;
@@ -34,8 +50,28 @@
 .container{
     background-color: rgba(255, 255, 255, 0.4);
     width: 500px;
-    height: 200px;
+    height: 300px;
       
+}
+
+
+/*----------------------- Top Endangered*/
+.top-endangered{
+    min-height: calc(100vh - 120px);
+    
+}
+
+.end-species{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.gallery{
+    background-color: aqua;
+}
+
+.gallery-heading{
+    padding-top: 40px;
 }
 
 
@@ -51,7 +87,7 @@ footer{
 
 .fa{
     font-size: 35px;
-    padding-right: 35px;
+    padding-right: 50px;
 }
 
 
@@ -59,3 +95,6 @@ footer{
 
 
 /*----------------------- Media */
+@media (min-width: 1000px){
+
+}
