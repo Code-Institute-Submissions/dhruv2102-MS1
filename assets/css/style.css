@@ -7,15 +7,15 @@
     text-align: center;
 }
 
+.row{
+    --bs-gutter-x: 0;
+}
 /*----------------------- Color */
 .bg-color-desc{
     background-color: darkkhaki;
 }
 
 /*----------------------- Navbar */
-.header{
-    position: relative;
-}
 
 .logo{
     margin-left: 50px;
@@ -74,11 +74,31 @@
     padding-top: 40px;
 }
 
+/*----------------------- Causes */
+.causes-section{
+    min-height: calc((100vh - 120px)/2);
+    margin: 0px;
+}
+
+.cause1_img{
+    background-color: #525252;
+}
+
+.cause2_img{
+    background-color: #525252;
+}
+
+.cause3_img{
+    background-color: #525252;
+}
+
+
 
 /*----------------------- Footer */
 footer{
     background-color: #525252;
-    position: absolute;
+    position: relative;
+    bottom: 0px;
     height: 60px;
     display: flex;
     justify-content: center;
