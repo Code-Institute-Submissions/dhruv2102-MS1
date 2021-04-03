@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /*----------------------- General */
 .uppercase{
     text-transform: uppercase;
@@ -10,6 +12,8 @@
 .row{
     --bs-gutter-x: 0;
 }
+
+
 /*----------------------- Color */
 .bg-color-desc{
     background-color: darkkhaki;
@@ -66,8 +70,14 @@
     padding-top: 40px;
 }
 
+.top-end-text{
+    padding: 20px 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .gallery{
-    background-color: aqua;
+    background-color: darkkhaki;
 }
 
 .gallery-heading{
