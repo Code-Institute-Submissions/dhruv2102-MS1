@@ -2,17 +2,14 @@
 
 Add final image here
 
-----
 
 ## Introduction
----
 
 The purpose of this website is to make users aware of the endangered species 
 around the world and the root causes of it. 
 
 
 ## User Stories
----
 
 As a user, I would like to 
 1. Navigate through the website easily.
@@ -21,7 +18,6 @@ As a user, I would like to
 
 
 ## Technologies Used
----
 
 - HTML
 - CSS

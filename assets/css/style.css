@@ -9,14 +9,13 @@
     text-align: center;
 }
 
-.row{
-    --bs-gutter-x: 0;
-}
-
-
 /*----------------------- Color */
 .bg-color-desc{
     background-color: darkkhaki;
+}
+
+.bg-color{
+    background-color: #525252;
 }
 
 /*----------------------- Navbar */
@@ -32,6 +31,24 @@
 .nav-item{
     text-transform: uppercase;
     margin: 2px;
+}
+
+.navbar-custom {
+    background-color: #525252;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(255,255,255);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
 }
 
 /*----------------------- Hero Image*/
@@ -66,7 +83,6 @@
 }
 
 .end-species{
-    padding-left: 20px;
     padding-top: 40px;
 }
 
@@ -78,11 +94,15 @@
 
 .gallery{
     background-color: darkkhaki;
-
 }
 
 .gallery-heading{
     padding-top: 40px;
+}
+
+.w-100{
+    width: 100% !important;
+    height: calc(100vh - 120px);
 }
 
 /*----------------------- Causes */
@@ -92,24 +112,62 @@
 }
 
 .cause1_img{
-    background-color: #525252;
-    min-height: 100px;
-    
+    background: url(../images/causes/c-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 180px);
+    overflow: hidden;
+
 }
 
 .cause2_img{
-    background-color: #525252;
-}
-
-.cause3_img{
-    background-color: #525252;
+    background: url(../images/causes/seahorse.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 180px);
+    overflow: hidden;
 }
 
 .causes-padding{
     padding-top: 40px;
 }
 
+.cause-subheading{
+    padding-top: 20px;
+}
 
+/*----------------------- Causes overlay text: reference w3schools */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.cause1_img:hover .overlay,
+.cause2_img:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /*----------------------- Footer */
 footer{
@@ -129,9 +187,4 @@ footer{
 
 
 
-
-
 /*----------------------- Media */
-@media (min-width: 1000px){
-
-}
