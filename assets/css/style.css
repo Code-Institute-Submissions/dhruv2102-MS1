@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 /*----------------------- General */
 .uppercase{
@@ -35,6 +35,10 @@
 
 .navbar-custom {
     background-color: #525252;
+}
+
+.navbar-brand{
+    font-family: 'Lodrina', sans-serif;
 }
 
 /* change the brand and text color */
@@ -90,6 +94,12 @@
       
 }
 
+.index-para{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 1);
+    z-index: 2;
+    font-size: 20px;
+}
 
 /*----------------------- Top Endangered*/
 .top-endangered{
@@ -116,7 +126,7 @@
 }
 
 .w-100{
-    width: 100% !important;
+    /* width: 100% !important; */
     height: calc(100vh - 120px);
 }
 
@@ -200,3 +210,12 @@ footer{
 
 
 /*----------------------- Media */
+@media screen and (max-width: 760px){
+    .top-endangered{
+        height: fit-content;
+    }
+    
+    .w-100{
+        height: 400px;
+    }
+}
