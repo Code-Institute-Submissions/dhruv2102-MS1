@@ -40,6 +40,7 @@
 .navbar-brand{
     font-family: 'Lodrina', sans-serif;
 }
+/* https://medium.com/wdstack/bootstrap-4-custom-navbar-1f6a2da5ed3c#:~:text=There%20are%20several%20included%20Navbar,darker%20text%20color%20(black). */
 
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -112,9 +113,14 @@
 }
 
 .top-end-text{
-    padding: 20px 15px;
+    padding-top: 20px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.content-text{
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .gallery{
