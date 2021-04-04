@@ -78,6 +78,7 @@
 
 .gallery{
     background-color: darkkhaki;
+
 }
 
 .gallery-heading{
@@ -92,6 +93,8 @@
 
 .cause1_img{
     background-color: #525252;
+    min-height: 100px;
+    
 }
 
 .cause2_img{
@@ -100,6 +103,10 @@
 
 .cause3_img{
     background-color: #525252;
+}
+
+.causes-padding{
+    padding-top: 40px;
 }
 
 
