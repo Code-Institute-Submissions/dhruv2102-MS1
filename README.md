@@ -89,8 +89,11 @@ The testing scenarios and results were as follows
 
 4. W3C Validator results
     - All html files were run through the w3c validator and got the same results
-    - ![W3C Results](assets/test/w3c_2.JPG)
+    - ![W3C Results](assets/images/test/w3c_2.JPG)
+
 5. Jigsaw Validator results
+    - The results for jigsaw validator were as follows
+    - ![Jigsaw Validator](assets/images/test/jigsaw.JPG)
 
 6. Lighthouse accessibility results
 
