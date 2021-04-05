@@ -4,7 +4,12 @@
 
 - [Introduction](#introduction)
 - [WireFrames](#wireframes)
-- [USer Stories](#user Stories)
+- [User Stories](#User-Stories)
+- [Technologies Used](#Technologies-used)
+- [Testing](#testing)
+- [Known Issues](#Known-issues)
+- [Deployment](#Deployment)
+- [Running Project Locally](#running-project-locally)
 
 ![View across different displays](assets/images/display.JPG)
 
