@@ -21,7 +21,7 @@ around the world and the root causes of it.
 
 ## WireFrames
 
-We used Balsamiq to generate wirefrae a rough layout of the images
+We used Balsamiq to generate wireframe a rough layout of the images
 1. Home page
     - ![Home page wireframe](assets/images/wireframe/home.JPG)
 
@@ -41,7 +41,7 @@ As a user, I would like to
 3. Learn what is causing the species to get endangered
 4. Have social links for relevant acoounts added
 5. Have strong accessibility
-6. Use the website on mobile/laptop without 
+6. Use the website on mobile/laptop without any issues or affect on user experience. 
 
 
 ## Technologies Used
@@ -74,7 +74,7 @@ As a user, I would like to
     - Balsmiq was used to design the basic structure of the website
 
 - [Stack Overflow](https://stackoverflow.com/)
-    - Stack overflow was used debug code
+    - Stack overflow was used to debug code
 
 - [W3schools](https://www.w3schools.com/)
     - This was used to understand concept of flexbox and get overlay code
@@ -99,7 +99,7 @@ As a user, I would like to
 
     
 ## Testing
-During the developement of website, google chrome developer tools were used to test eh website 
+During the development of website, google chrome developer tools were used to test the website 
 and check the responsiveness of the code implemented. The final testing was done on
 - Asus UX410 laptop, 14" screen, 1920x1080p resolution
     - Firefix
@@ -111,20 +111,20 @@ and check the responsiveness of the code implemented. The final testing was done
 
 The testing scenarios and results were as follows
 
-1. Testing whether pages loading correctly
-    - To test this all the pages were opened on all web browser
+1. Testing whether the pages were loading correctly
+    - To test this all the pages were opened on different web browsers mentioned above.
     - Result: All the pages loaded correctly
 
 
-2. Testing intenal links
+2. Testing all intenal links
     - Tested all the internal links by opening them on all pages
     - Result: ALl the internal links were working properly
 
 3. Clicking on Logo brings back to home screen
-    - Result: WHen the logo is clicked on, it brings back to the home screen
+    - Result: When the logo is clicked on, it brings back to the home screen
 
 4. W3C Validator results
-    - All html files were run through the w3c validator and got the same results
+    - All .html files were run through the w3c validator and got the same results
     - ![W3C Results](assets/images/test/w3c_2.JPG)
 
 5. Jigsaw Validator results
@@ -137,15 +137,14 @@ The testing scenarios and results were as follows
 
 ## Known Issues
 
-1. The Caraousel Images don't transition smoothly
+1. The Carousel Images don't transition smoothly
     - Possible Fix: The possible fix for this is using javascript
 
 2. Low Lighthouse Best Practices Results
-    - This is caused due to first 2 images in carousel aren't being loaded by the browser
-    - This images are loaded perfectly when the project is run locally. 
+    - This is caused as to first 2 images in carousel aren't being loaded by the browser
+    - These images are loaded perfectly when the project is run locally. 
     - Fix: 
-        - The issue was that file path for the first 2 pictures had a leading slash. Since github pages is case sensitive and needs the relative path
-        the leading `/` caused an issue.
+        - The issue was that file path for the first 2 pictures had a leading slash. Since github pages is case sensitive and needs the relative path the leading `/` caused an issue.
 
 
 ## Deployment
@@ -161,11 +160,11 @@ The link to my project is: https://dhruv2102.github.io/MS1/
 ## Running Project Locally
 To run the project locally, follow these steps
 1. Open the repository https://github.com/dhruv2102/MS1
-2. Choose HTTPS clone opeion from the code button.
+2. Choose HTTPS clone option from the code button.
 3. Copy this command
 4. Open the directory where you want to clone the project to. 
-5. Open the Git Bash terminal in the taegeted directory.
-6. Type the command git clone and then past the HTTPS url
+5. Open the Git Bash terminal in the targeted directory.
+6. Type the command git clone and then paste the HTTPS url
 6. After the execution of the command, this repository would be created in the directory. 
 
 ## Credits
@@ -174,5 +173,5 @@ To run the project locally, follow these steps
 - The media was used from [Pixabay](https://pixabay.com/) and seahorse picture by [Justin Hoffman](https://www.theverge.com/2017/9/15/16314928/justin-hofman-seahorse-plastic-pollution-photography)
 
 ### Acknowledgement
-- I would like to than my Mentor for guiding me through the project.
-- I would like to thank Alexander from Student Care Team for helping me get a deferral. 
+- I would like to thank my Mentor for guiding me through the project.
+- I would like to thank Alexander from Student Care Team for the support he has given me throught the course.  
