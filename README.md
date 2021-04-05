@@ -1,9 +1,10 @@
 # [TOP ENDANGERED SPECIES](https://dhruv2102.github.io/MS1/)
 
-## content
+## Content
 
 - [Introduction](#introduction)
-
+- [WireFrames](#wireframes)
+- [USer Stories](#user Stories)
 
 ![View across different displays](assets/images/display.JPG)
 
