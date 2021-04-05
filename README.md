@@ -1,7 +1,6 @@
 # TOP ENDANGERED SPECIES
 
-Add final image here
-
+![View across different displays](assets/images/display.JPG)
 
 ## Introduction
 
@@ -59,7 +58,16 @@ As a user, I would like to
     - With the help of code institute I was able to understand how a static website is made
 
 - Pixaby
-    - This was used tio get all the images used in this project. 
+    - This was used to get all the images used in this project. 
+
+- Jigsaw
+    - Tool for CSS validation
+
+- W3C Validator
+    - Tool for HTML validation
+
+- Lighthouse
+    - Tool for performance, accessiblity analysis
 
     
 ## Testing
@@ -96,6 +104,18 @@ The testing scenarios and results were as follows
     - ![Jigsaw Validator](assets/images/test/jigsaw.JPG)
 
 6. Lighthouse accessibility results
+    - The results for red_panda.html were as follows
+    - ![Red Panda Lighthouse Results](assets/images/test/results.JPG)
+
+## Known Issues
+
+1. The Caraousel Images don't transition smoothly
+    - Possible Fix: The possible fix for this is using javascript
+
+2. Low Lighthouse Best Practices Results
+    - This is caused due to first 2 images in carousel aren't being loaded by the browser
+    - This images are loaded perfectly when the project is run locally. 
+
 
 ## Deployment
 I used github pages to deploy the website. To deploy a project, one should follow the following steps
