@@ -11,13 +11,13 @@ around the world and the root causes of it.
 
 We used Balsamiq to generate wirefrae a rough layout of the images
 1. Home page
-    - !(Home page wireframe)[assets/images/wireframe/home.JPG]
+    - ![Home page wireframe](assets/images/wireframe/home.JPG)
 
 2. Top-Endagered Species pages
-    - !(Top Endangered Species wireframe)[assets/images/wireframe/top-end.JPG]
+    - ![Top Endangered Species wireframe](assets/images/wireframe/top-end.JPG)
 
 3. Causes page
-    - !(Causes wireframe)[assets/images/wireframe/cause.JPG]
+    - ![Causes wireframe](assets/images/wireframe/cause.JPG)
 
 
 
