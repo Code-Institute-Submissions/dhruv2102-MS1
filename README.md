@@ -7,6 +7,19 @@
 The purpose of this website is to make users aware of the endangered species 
 around the world and the root causes of it. 
 
+## WireFrames
+
+We used Balsamiq to generate wirefrae a rough layout of the images
+1. Home page
+    - !(Home page wireframe)[assets/images/wireframe/home.JPG]
+
+2. Top-Endagered Species pages
+    - !(Top Endangered Species wireframe)[assets/images/wireframe/top-end.JPG]
+
+3. Causes page
+    - !(Causes wireframe)[assets/images/wireframe/cause.JPG]
+
+
 
 ## User Stories
 
@@ -115,6 +128,9 @@ The testing scenarios and results were as follows
 2. Low Lighthouse Best Practices Results
     - This is caused due to first 2 images in carousel aren't being loaded by the browser
     - This images are loaded perfectly when the project is run locally. 
+    - Fix: 
+        - The issue was that file path for the first 2 pictures had a leading slash. Since github pages is case sensitive and needs the relative path
+        the leading `/` caused an issue.
 
 
 ## Deployment
