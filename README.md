@@ -10,6 +10,7 @@
 - [Known Issues](#Known-issues)
 - [Deployment](#Deployment)
 - [Running Project Locally](#running-project-locally)
+- [Credits](#Credits)
 
 ![View across different displays](assets/images/display.JPG)
 
