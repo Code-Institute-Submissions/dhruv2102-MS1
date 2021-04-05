@@ -1,4 +1,9 @@
-# TOP ENDANGERED SPECIES
+# [TOP ENDANGERED SPECIES](https://dhruv2102.github.io/MS1/)
+
+## content
+
+- [Introduction](#introduction)
+
 
 ![View across different displays](assets/images/display.JPG)
 
@@ -34,53 +39,56 @@ As a user, I would like to
 
 ## Technologies Used
 
-- HTML
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
     - HTML was to give structure to page and content
 
-- CSS
+- [CSS](https://en.wikipedia.org/wiki/CSS)
     - CSS was used to style the content
 
-- Bootstrap
+- [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - This helped made content responsive 
 
-- Git
+- [Git](https://git-scm.com/)
     - Git was used for version control, which helped in keeping track of changed files
 
-- Github
+- [GitHub](https://github.com/)
     - Github was used to store and deploy the project
 
-- Gitpod
+- [Gitpod](https://www.gitpod.io/)
     - Gitpod was used to write code in. It is a cloud based platform
 
-- Google Fonts
+- [Google fonts](https://fonts.google.com/)
     - Google fonts was used to import different fonts from google
 
-- Font Awesome
+- [Font Awesome](https://fontawesome.com/)
     - This was used to get the icons for social media 
 
-- Balsamiq
+- [Balsamiq](https://balsamiq.com/wireframes/)
     - Balsmiq was used to design the basic structure of the website
 
-- Stack Overflow
+- [Stack Overflow](https://stackoverflow.com/)
     - Stack overflow was used debug code
 
-- W3schools
+- [W3schools](https://www.w3schools.com/)
     - This was used to understand concept of flexbox and get overlay code
 
-- Code Institute
+- [Code Institute learning platform](https://codeinstitute.net/)
     - With the help of code institute I was able to understand how a static website is made
 
-- Pixaby
+- [Pixabay](https://pixabay.com/)
     - This was used to get all the images used in this project. 
 
-- Jigsaw
+- [Jigsaw](https://jigsaw.w3.org/css-validator/validator)
     - Tool for CSS validation
 
-- W3C Validator
+- [W3C validator](https://validator.w3.org/)
     - Tool for HTML validation
 
-- Lighthouse
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
     - Tool for performance, accessiblity analysis
+
+- [Am I Responsive](http://ami.responsivedesign.is/)
+    - Tool used to check how website will look across different screen size
 
     
 ## Testing
