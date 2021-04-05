@@ -166,3 +166,12 @@ To run the project locally, follow these steps
 5. Open the Git Bash terminal in the taegeted directory.
 6. Type the command git clone and then past the HTTPS url
 6. After the execution of the command, this repository would be created in the directory. 
+
+## Credits
+
+### Media
+    - The media was used from [Pixabay](https://pixabay.com/) and seahorse picture by [Justin Hoffman](https://www.theverge.com/2017/9/15/16314928/justin-hofman-seahorse-plastic-pollution-photography)
+
+### Acknowledgement
+    - I would like to than my Mentor for guiding me through the project.
+    - I would like to thank Alexander from Student Care Team for helping me get a deferral. 
